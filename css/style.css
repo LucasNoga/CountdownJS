@@ -1,0 +1,31 @@
+body {
+    background-color: white
+}
+
+.content {
+    text-align: center;
+    border: solid black 1px;
+    width: 90%;
+    margin: 25px auto 0 auto;
+    padding: 50px;
+    background-color: beige;
+    border-radius: 15px;
+}
+
+.numbers {
+    width: 70%;
+    margin: 0 0 0 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+.block {
+    border: solid black 1px;
+    border-radius: 5px;
+    box-shadow: -2px -2px teal;
+    background-color: grey;
+    padding: 25px;
+    color: white;
+}
